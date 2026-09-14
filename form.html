@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 태그 테스트</title>
+  </head>
+  <body>
+    <h2>폼 요소 살펴보기</h2>
+
+    <!-- Log in box -->
+    <form>
+      <h5>로그인 해주세요</h5>
+      <div>
+        ID:
+        <input
+          type="text"
+          name="userid"
+          placeholder="ID를 입력하세요"
+          required
+        />
+      </div>
+      <div>
+        PSWD:
+        <input
+          type="password"
+          name="pswd"
+          placeholder="PSWD를 입력하세요"
+          required
+        />
+      </div>
+      <input type="submit" value="로그인" />
+    </form>
+  </body>
+</html>
